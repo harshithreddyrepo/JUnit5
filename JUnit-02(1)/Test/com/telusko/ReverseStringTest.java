@@ -14,5 +14,13 @@ public class ReverseStringTest {
 		String expectedResult="AVAJ";
 		assertEquals(expectedResult, actualResult);
 	}
+	
+	@Test
+	 public void test1() {
+		EditString obj=new EditString();
+		String actualResult=obj.downCase("JAVA");
+		String expectedResult="java";
+		assertEquals(expectedResult, actualResult);
+	}
 
 }
